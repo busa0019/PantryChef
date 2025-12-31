@@ -1,46 +1,290 @@
-# Getting Started with Create React App
+# 🍳 PantryChef – AI-Powered Food Waste Reduction Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![PantryChef Hero](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=1200\&q=80)
 
-## Available Scripts
+Transform your leftovers into delicious meals with **AI-powered recipe matching** and **smart kitchen management**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://pantry-chef-brown.vercel.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧠 Smart AI Integration
 
-### `npm run build`
+* **AI Recipe Matching** – Intelligent algorithm finds perfect recipes based on available ingredients
+* **Ingredient Scanner** – Camera-based ingredient recognition with quantity estimation
+* **Expiration Tracking** – Smart notifications for ingredients nearing expiration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👨‍🍳 Educational Content
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Master Methods** – Step-by-step cooking technique tutorials (inspired by *The Cookful*)
+* **Interactive Tutorials** – Hands-on guides with pro tips and video demonstrations
+* **Cooking Fundamentals** – Learn essential skills to cook smarter and waste less
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛒 Smart Kitchen Management
 
-### `npm run eject`
+* **AI Shopping Lists** – Intelligent grocery lists based on meal plans
+* **Pantry Inventory** – Track ingredients with expiration alerts
+* **Meal Planning** – Weekly planning to minimize waste from the start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 👥 Community Platform
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Community Q&A** – Get answers from both AI and experienced cooks
+* **Recipe Sharing** – Share your creations and discover community favorites
+* **Progress Tracking** – Monitor your waste reduction and savings
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 🔐 User Experience
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* **Secure Authentication** – Social login and email/password authentication
+* **Personal Dashboard** – Track your environmental impact and savings
+* **Mobile Responsive** – Fully responsive design for all devices
+* **WCAG 2.1 Compliant** – Accessible to all users
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Home Page                                                                                                         | Recipe Finder                                                                                                     | Shopping List                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ![](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=400\&q=80) | ![](https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=400\&q=80) | ![](https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=400\&q=80) |
+
+| Master Methods                                                                                                       | Community Q&A                                                                                                     | User Dashboard                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![](https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=400\&q=80) | ![](https://images.unsplash.com/photo-1556906781-2a3f6c5a0c61?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=400\&q=80) | ![](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=400\&q=80) |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+* Node.js **16.x** or higher
+* npm or yarn
+* Modern web browser
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/busa0019/PantryChef.git
+
+# Navigate to project directory
+cd PantryChef
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+The application will open at **[http://localhost:3000](http://localhost:3000)**
+
+### Build for Production
+
+```bash
+# Create production build
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend Framework
+
+* React 18 with TypeScript
+* Tailwind CSS for styling
+* Create React App for build tooling
+
+### Key Libraries
+
+* React Hooks for state management
+* LocalStorage for data persistence
+* React Icons for iconography
+
+### Development Tools
+
+* TypeScript for type safety
+* ESLint for code quality
+* PostCSS for CSS processing
+
+---
+
+## 📁 Project Structure
+
+```text
+PantryChef/
+├── public/                 # Static assets
+├── src/
+│   ├── components/        # React components
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Features.tsx
+│   │   ├── HowItWorks.tsx
+│   │   ├── IngredientScanner.tsx
+│   │   ├── RecipeFinder.tsx
+│   │   ├── ShoppingList.tsx
+│   │   ├── MethodsSection.tsx
+│   │   ├── MethodCard.tsx
+│   │   ├── CommunityQA.tsx
+│   │   ├── DashboardPreview.tsx
+│   │   ├── CommunitySection.tsx
+│   │   ├── Footer.tsx
+│   │   ├── LoadingSpinner.tsx
+│   │   └── LoginModal.tsx
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 🔑 Key Features in Detail
+
+### 1. AI-Powered Recipe Matching
+
+* Ingredient-based search
+* Dietary filters (Vegetarian, Vegan, Keto, Gluten-Free)
+* Time-based filtering (under 30 minutes)
+* Match percentage scoring
+
+### 2. Smart Shopping List
+
+* AI-generated grocery lists
+* Priority sorting for expiring items
+* Cost estimation
+* Category organization
+
+### 3. Cooking Techniques Library
+
+* Step-by-step guides with pro tips
+* Difficulty levels
+* Video tutorials
+* Tool requirements
+
+### 4. Community Engagement
+
+* Q&A forum
+* Recipe sharing
+* Waste reduction tracking
+* Expert contributors
+
+---
+
+## ♿ Accessibility Features
+
+PantryChef follows **WCAG 2.1 AA** guidelines:
+
+* Semantic HTML
+* Full keyboard navigation
+* ARIA labels
+* 4.5:1 minimum color contrast
+* Visible focus indicators
+* Descriptive alt text
+
+---
+
+## 📱 Responsive Design
+
+* Mobile-first approach
+* Breakpoints: `sm`, `md`, `lg`, `xl`
+* Touch-friendly UI
+* Performance optimized with lazy loading
+
+---
+
+## 🌱 Environmental Impact
+
+### Statistics Tracked
+
+* Food waste reduced
+* Money saved
+* CO₂ reduction
+* Recipes created
+
+### Sustainability Goals
+
+* Reduce food waste by **60%**
+* Save resources
+* Educate users
+* Build a waste-conscious cooking community
+
+---
+
+## 🔧 Development
+
+### Available Scripts
+
+```bash
+npm start
+npm test
+npm run build
+npm run deploy
+npm run eject
+```
+
+### Code Style
+
+* TypeScript (strict mode)
+* ESLint (Airbnb style guide)
+* Prettier formatting
+* Functional components with hooks
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+* Unsplash – Food photography
+* Tailwind CSS
+* React Community
+
+---
+
+## 📞 Support
+
+* **Bugs**: GitHub Issues
+* **Features**: GitHub Discussions
+* **Questions**: Open an issue
+
+
+---
+
+<div align="center">
+  <strong>Built with ❤️ for sustainable cooking</strong><br />
+  <sub>Help reduce food waste, one meal at a time</sub>
+</div>
+
+<p align="center">
+  <a href="https://github.com/busa0019/PantryChef/stargazers">⭐ Star us on GitHub</a> •
+  <a href="https://github.com/busa0019/PantryChef/fork">🍴 Fork the project</a> •
+  <a href="https://github.com/busa0019/PantryChef/issues">🐛 Report a bug</a>
+</p>
