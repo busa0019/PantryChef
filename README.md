@@ -22,7 +22,7 @@ https://pantry-chef-brown.vercel.app/
 
 ### 👨‍🍳 Educational Content
 
-* **Master Methods** – Step-by-step cooking technique tutorials (inspired by *The Cookful*)
+* **Master Methods** – Step-by-step cooking technique tutorials 
 * **Interactive Tutorials** – Hands-on guides with pro tips and video demonstrations
 * **Cooking Fundamentals** – Learn essential skills to cook smarter and waste less
 
